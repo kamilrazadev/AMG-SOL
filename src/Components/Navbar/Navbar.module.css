@@ -251,6 +251,8 @@
     /* Layout */
     width: 100%;
     height: 100vh;
+    overflow: auto;
+
     position: absolute;
     right: 100%;
     z-index: 10000 !important;
