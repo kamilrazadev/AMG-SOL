@@ -31,7 +31,7 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-          <div id="sign_in">
+          <div id={styles.sign_in}>
             <button className={styles.sign_in_button}>SIGN IN</button>
             <button className={styles.join_now_button}>JOIN NOW</button>
           </div>
@@ -47,33 +47,39 @@ const Navbar = () => {
       </span>
 
       <nav className={styles.nav_responsive} id="nav-bar">
-        <ul>
-          <h3>ABOUT US</h3>
+        <div className={styles.nav_responsive_links}>
+          <ul>
+            <h3>ABOUT US</h3>
 
-          <a href="#">Company Overview</a>
-          <a href="#">Mission & Values</a>
-          <a href="#">Our Team</a>
-        </ul>
-        <ul>
-          <h3>SERVICES</h3>
+            <a href="#">Company Overview</a>
+            <a href="#">Mission & Values</a>
+            <a href="#">Our Team</a>
+          </ul>
+          <ul>
+            <h3>SERVICES</h3>
 
-          <a href="#">Online Payments</a>
-          <a href="#">Money Transfers</a>
-          <a href="#">Pre-Paid Services</a>
-          <a href="#">Check Cashing</a>
-        </ul>
-        <ul>
-          <h3>RESOURCES</h3>
+            <a href="#">Online Payments</a>
+            <a href="#">Money Transfers</a>
+            <a href="#">Pre-Paid Services</a>
+            <a href="#">Check Cashing</a>
+          </ul>
+          <ul>
+            <h3>RESOURCES</h3>
 
-          <a href="#">FAQ's</a>
-          <a href="#">Coverage</a>
-        </ul>
-        <ul>
-          <h3>CONTACT US</h3>
+            <a href="#">FAQ's</a>
+            <a href="#">Coverage</a>
+          </ul>
+          <ul>
+            <h3>CONTACT US</h3>
 
-          <a href="#">+21 345 6789</a>
-          <a href="#"></a>
-        </ul>
+            <a href="#">+21 345 6789</a>
+            <a href="#"></a>
+          </ul>
+        </div>
+
+        <div className={styles.nav_responsive_bottom}>
+          <button>User Login</button>
+        </div>
 
         <span
           className={`${styles.menu_bars} ${styles.menu_bars_nav}`}
