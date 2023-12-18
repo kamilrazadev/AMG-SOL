@@ -129,8 +129,14 @@
 }
 
 .menu_bars_nav {
-    top: 115px;
+    top: 45px;
+    right: 20px;
     transform: rotate(90deg) !important;
+    gap: 5px !important;
+}
+
+.menu_bars_nav > div {
+    width: 60% !important;
 }
 
 /* New Navbar */
@@ -246,6 +252,8 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
     align-items: center;
     justify-content: space-between;
     position: absolute;
