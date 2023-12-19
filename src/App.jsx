@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import Services from "./Pages/Services/Services";
 import Help from "./Pages/Help/Help";
 import CountriesWeCover from "./Pages/CountriesWeCover/CountriesWeCover";
+import MissionValues from "./Pages/MissionValues/MissionValues";
 
 const App = () => {
   useEffect(() => {
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
           <Route path="/help" element={<Help />} />
+          <Route path="/mission-values" element={<MissionValues />} />
           <Route path="/countries-we-cover" element={<CountriesWeCover />} />
         </Routes>
       </BrowserRouter>
