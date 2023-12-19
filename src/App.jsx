@@ -9,6 +9,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Pages/Services/Services";
 import Help from "./Pages/Help/Help";
+import CountriesWeCover from "./Pages/CountriesWeCover/CountriesWeCover";
 
 const App = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
           <Route path="/help" element={<Help />} />
+          <Route path="/countries-we-cover" element={<CountriesWeCover />} />
         </Routes>
       </BrowserRouter>
       <Footer />

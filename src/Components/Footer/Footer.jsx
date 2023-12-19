@@ -54,15 +54,17 @@ const Footer = () => {
           <ul className={styles.footer_links_social}>
             <h4>Follow us</h4>
 
-            <li>
-              <img src={twitterX} alt="twitterX" />
-            </li>
-            <li>
-              <img src={facebook} alt="facebook" />
-            </li>
-            <li>
-              <img src={instagram} alt="instagram" />
-            </li>
+            <div>
+              <li>
+                <img src={facebook} alt="facebook" />
+              </li>
+              <li>
+                <img src={instagram} alt="instagram" />
+              </li>
+              <li>
+                <img src={twitterX} alt="twitterX" />
+              </li>
+            </div>
           </ul>
         </div>
       </div>

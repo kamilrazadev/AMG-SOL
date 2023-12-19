@@ -47,7 +47,7 @@ const HeroBanner = () => {
       {/* <Link to="moneyTransferForm" smooth={true} duration={500}>
         Scroll to Money Transfer Form
       </Link> */}
-      <div className={styles.hero_banner_headings}>
+      <div className={styles.hero_banner_headings} data-aos="zoom-out">
         <h1>CONNTECTING</h1>
         <h1>Latin America</h1>
       </div>

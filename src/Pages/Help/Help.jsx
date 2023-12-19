@@ -71,7 +71,7 @@ const Help = () => {
           <h5>Explore all topics</h5>
           <div className={styles.help_cards_container}>
             {helpCardsData.map((cardData, key) => (
-              <div className={styles.help_card} key={key}>
+              <div className={styles.help_card} key={key} data-aos="fade-up">
                 <img src="#" alt="" />
                 <h6>{cardData.heading}</h6>
                 <p>“{cardData.content}”</p>
