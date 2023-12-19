@@ -131,7 +131,7 @@
     position: relative;
 
     /* UI */
-    background-image: url(/public/assets/images/header_background@2x.png);
+    background-image: url(/public/assets/images/header_background.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -393,7 +393,7 @@
     gap: 45px;
     padding: 40px 54px;
     position: relative;
-    /* z-index: 50; */
+    z-index: 1;
 
     /* UI */
     background-color: #2B4C96;
@@ -408,7 +408,7 @@
     justify-content: center;
     gap: 10px;
     position: relative;
-    /* z-index: 50; */
+    z-index: 1;
 }
 
 .international_money_transfer_txt > h1 {
