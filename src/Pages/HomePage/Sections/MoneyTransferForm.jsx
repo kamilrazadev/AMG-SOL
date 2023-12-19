@@ -8,7 +8,7 @@ const MoneyTransferForm = () => {
     <section className={styles.money_transfer_main} id="moneyTransferForm">
       <div className={styles.wrapper}>
         <div className={styles.money_transfer_container}>
-          <div className={styles.money_transfer_form}>
+          <div className={styles.money_transfer_form} data-aos="fade-right">
             <div className={styles.form_field}>
               <p>You Send</p>
               <div>
@@ -36,7 +36,7 @@ const MoneyTransferForm = () => {
               <button>Get Started</button>
             </div>
           </div>
-          <div className={styles.money_transfer_txt}>
+          <div className={styles.money_transfer_txt} data-aos="fade-left">
             <h4>MAKE YOUR MONEY MOVE, FAST</h4>
             <h2>
               Send to 70+ countries, fast. Free from hidden fees and exchange

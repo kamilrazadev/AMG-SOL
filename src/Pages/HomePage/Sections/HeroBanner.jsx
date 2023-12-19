@@ -53,7 +53,7 @@ const HeroBanner = () => {
       </div>
       <div className={styles.hero_banner_logo}>
         <div>
-          <img src={solLogoHero} alt="" />
+          <img src={solLogoHero} alt="" data-aos="zoom-out" />
         </div>
       </div>
     </div>

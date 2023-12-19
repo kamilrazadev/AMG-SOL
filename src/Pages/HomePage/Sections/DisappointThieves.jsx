@@ -8,7 +8,11 @@ const DisappointThieves = () => {
     <div className={styles.dissapoint_thieves_main}>
       <div className={styles.wrapper}>
         <div className={styles.dissapoint_thieves_container}>
-          <div className={styles.dissapoint_thieves_txt}>
+          <div
+            className={styles.dissapoint_thieves_txt}
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
             <h1 className={styles.heading_common}>DISAPPOINT THIEVES</h1>
             <p>
               At SOL Money Transfer, the security of your financial transactions
@@ -27,7 +31,11 @@ const DisappointThieves = () => {
             </p>
             <button>How we keep your money save</button>
           </div>
-          <div className={styles.dissapoint_thieves_content}>
+          <div
+            className={styles.dissapoint_thieves_content}
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
             <img src={shieldImage} alt="" />
           </div>
         </div>

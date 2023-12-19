@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import solLogo from "/assets/images/SOL_Logo.png";
 import helpIcon from "/assets/images/Help_icon.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const showNavbar = () => {
@@ -20,13 +21,13 @@ const Navbar = () => {
         <div className={styles.white_rectangle}>
           <div className={styles.header_icons}>
             {/* Help Icon */}
-            <a href="help.html" className={styles.help_link}>
+            <a href="/help" className={styles.help_link}>
               <img src={helpIcon} alt="Help Icon" height={80} width={80} />
               <span className={styles.help_text}>Help</span>
             </a>
             {/* Logo */}
             <div className={styles.SOL_Logo} id="SOL_Logo">
-              <a href="index.html">
+              <a href="/">
                 <img src={solLogo} alt="Logo" height={117} width={96} />
               </a>
             </div>
@@ -48,33 +49,42 @@ const Navbar = () => {
 
       <nav className={styles.nav_responsive} id="nav-bar">
         <div className={styles.nav_responsive_links}>
-          <ul>
-            <h3>ABOUT US</h3>
+          <div className="row">
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <ul>
+                <h3>ABOUT US</h3>
+                <a href="#">Company Overview</a>
+                <a href="#">Mission & Values</a>
+                <a href="#">Our Team</a>
+              </ul>
+            </div>
 
-            <a href="#">Company Overview</a>
-            <a href="#">Mission & Values</a>
-            <a href="#">Our Team</a>
-          </ul>
-          <ul>
-            <h3>SERVICES</h3>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <ul>
+                <h3>SERVICES</h3>
+                <a href="#">Online Payments</a>
+                <a href="#">Money Transfers</a>
+                <a href="#">Pre-Paid Services</a>
+                <a href="#">Check Cashing</a>
+              </ul>
+            </div>
 
-            <a href="#">Online Payments</a>
-            <a href="#">Money Transfers</a>
-            <a href="#">Pre-Paid Services</a>
-            <a href="#">Check Cashing</a>
-          </ul>
-          <ul>
-            <h3>RESOURCES</h3>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <ul>
+                <h3>RESOURCES</h3>
+                <a href="#">FAQ's</a>
+                <a href="#">Coverage</a>
+              </ul>
+            </div>
 
-            <a href="#">FAQ's</a>
-            <a href="#">Coverage</a>
-          </ul>
-          <ul>
-            <h3>CONTACT US</h3>
-
-            <a href="#">+21 345 6789</a>
-            <a href="#"></a>
-          </ul>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <ul>
+                <h3>CONTACT US</h3>
+                <a href="#">+21 345 6789</a>
+                <a href="#"></a>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className={styles.nav_responsive_bottom}>

@@ -1,111 +1,3 @@
-.main_nav {
-    width: 100%;
-    padding: 0 5px;
-    position: relative;
-}
-
-.upper_nav {
-    /* layout */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 86px;
-    padding: 0 30px;
-
-    /* UI */
-    background-color: #fff;
-    box-shadow: 4px 3px 6px #00000029;
-    z-index: 10;
-}
-
-.nav_icons_container {
-    display: flex;
-    align-items: center;
-    gap: 39px;
-    height: 86px;
-
-    position: relative;
-}
-
-.nav_icons_container > span {
-    width: 122px;
-    align-self: flex-end;
-    text-align: center;
-}
-
-.nav_icons_container > span {
-    text-decoration: underline;
-}
-
-.nav_help_icon {
-    height: 122px;
-    width: 122px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.nav_help_icon, .nav_logo {
-    transition: all 300ms ease-in-out;
-}
-
-.nav_help_icon:hover, .nav_logo:hover {
-    transform: translateY(5px);
-    scale: 1.1;
-}
-
-.nav_help_icon:hover ~ h3 {
-    text-decoration: none;
-}
-
-.nav_btns_container {
-    display: flex;
-    gap: 39px;
-}
-
-.sign_in_btn {
-    /* layout */
-    width: 176px;
-    height: 52px;
-
-    /* UI */
-    font-weight: medium;
-    font-size: 17px;
-    border-radius: 14px;
-    border: none;
-    outline: none;
-    color: #010139;
-    background-color: #F9DF08;
-    cursor: pointer;
-}
-
-.join_now_btn {
-    /* layout */
-    width: 176px;
-    height: 52px;
-
-    /* UI */
-    font-weight: medium;
-    font-size: 17px;
-    border-radius: 14px;
-    border: none;
-    outline: none;
-    color: #F9DF08;
-    background-color: #2B4C96;
-    cursor: pointer;
-}
-
-.lower_nav {
-    /* Layout */
-    width: 100%;
-    height: 54px;
-
-    /* UI */
-    background-color: #F9DF08;
-
-}
-
 .menu_bars {
     /* layout */
     display: flex;
@@ -117,6 +9,9 @@
     position: absolute;
     top: 215px;
     right: 85px;
+
+    /* UI */
+    cursor: pointer;
 }
 
 .menu_bars > div {
@@ -125,7 +20,9 @@
     height: 5px;
 
     /* UI */
-    background-color: #F9DF08;
+    background-color: #B9A609;
+    /* box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.385); */
+    border-radius: 5px;
 }
 
 .menu_bars_nav {
@@ -139,12 +36,12 @@
     width: 60% !important;
 }
 
-/* New Navbar */
+/* Navbar */
 
 
 .header {
-    /* padding: 10px 0; */
-    position: sticky;
+    width: 100%;
+    position: sticky !important;
     top: 0;
     z-index: 99999 !important;
 }
@@ -159,7 +56,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    padding-left: 1px;
+    /* padding-left: 1px;    */
     padding-top: 0px;
 }
 
@@ -180,7 +77,7 @@
 
 .help_link img {
     margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     transition: transform 0.3s; /* Add a smooth transition effect */
 }
 
@@ -203,7 +100,7 @@
 
 .SOL_Logo img {
     transition: transform 0.3s; /* Add a smooth transition effect */
-    margin-top: 20px;
+    /* margin-top: 0px; */
 
 }
 
@@ -240,9 +137,11 @@
 
 
 .yellow_rectangle {
-    background-color: rgba(249, 223, 8, 1);
     height: 54px;
     width: 100%;
+
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+    background-color: rgba(249, 223, 8, 1);
 }
 
 /* Nav Responsive */
@@ -250,11 +149,16 @@
 .nav_responsive {
     /* Layout */
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     overflow: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; */
 
-    position: absolute;
+    position: fixed;
     right: 100%;
+    top: 115px;
     z-index: 10000 !important;
     padding: 50px;
 
@@ -266,11 +170,11 @@
 
 .nav_responsive_links {
     width: 100%;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     gap: 15px;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin-top: 50px;
 }
 
@@ -285,6 +189,7 @@
     display: flex;
     flex-direction: column;
     list-style: none;
+    margin-left: 10px !important;
 }
 
 .nav_responsive a {
@@ -307,11 +212,15 @@
 
 .nav_responsive_bottom {
     margin-top: 50px;    
+    display: flex;
+    justify-content: center;
 }
 
 .nav_responsive_bottom button {
+    /* Layout */
     padding: 10px 20px;
 
+    /* UI */
     background-color: #F9DF08;
     border: 1px solid #24AED5;
     font-weight: 800;
@@ -329,7 +238,10 @@
         top: 150px;
         right: 35px;
     }
-    .menu_bars_nav {
+}
 
-    }
+@media (max-width: 576px) {
+    .nav_responsive_links ul {
+        padding: 0;
+    }    
 }

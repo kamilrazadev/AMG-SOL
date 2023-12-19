@@ -12,7 +12,10 @@ const MoneyTransferForm = () => {
     >
       <div className={styles.wrapper}>
         <div className={styles.international_money_transfer_container}>
-          <div className={styles.international_money_transfer_txt}>
+          <div
+            className={styles.international_money_transfer_txt}
+            data-aos="fade-right"
+          >
             <h3 className={styles.sub_heading}>
               Empowering Global Money Movement
             </h3>{" "}
@@ -22,7 +25,10 @@ const MoneyTransferForm = () => {
             </h1>
           </div>
 
-          <div className={styles.international_money_transfer_form}>
+          <div
+            className={styles.international_money_transfer_form}
+            data-aos="fade-left"
+          >
             <div className={styles.form_field}>
               <p>You Send</p>
               <div>
@@ -81,6 +87,7 @@ const MoneyTransferForm = () => {
       </div>
 
       <img
+        data-aos="fade-in"
         src={globe}
         alt=""
         className={styles.international_money_transfer_globe}

@@ -4,7 +4,7 @@ import cardFlagRounded from "/assets/images/pngwingcom_26.png";
 
 const GoingPeopleCardWhite = () => {
   return (
-    <div className={styles.going_places_card_main}>
+    <div className={styles.going_places_card_main} data-aos="fade-up">
       <div>
         <img src={cardFlagRounded} alt="" />
         <p>

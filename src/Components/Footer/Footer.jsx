@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import twitterX from "/assets/images/socialIcons/twitterX.png";
-import facebook from "/assets/images/socialIcons/facebook.png";
+import facebook from "/assets/images/facebook_3670124.png";
+import instagram from "/assets/images/instagram_3955024.png";
 
 const Footer = () => {
   return (
@@ -50,11 +51,17 @@ const Footer = () => {
             <li>Invoice generator</li>
             <li>Business Calculators</li>
           </ul>
-          <ul>
+          <ul className={styles.footer_links_social}>
             <h4>Follow us</h4>
 
             <li>
-              <img src={twitterX} alt="" />
+              <img src={twitterX} alt="twitterX" />
+            </li>
+            <li>
+              <img src={facebook} alt="facebook" />
+            </li>
+            <li>
+              <img src={instagram} alt="instagram" />
             </li>
           </ul>
         </div>

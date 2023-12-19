@@ -33,8 +33,9 @@ const OurTeam = () => {
                 <div className={styles.our_team_info_card} key={key}>
                   <div
                     style={{ backgroundImage: `url(${member.profileImage})` }}
+                    data-aos="zoom-in"
                   ></div>
-                  <h4>
+                  <h4 data-aos="fade-up">
                     {member.firstName} <span>{member.lastName}</span>
                   </h4>
                 </div>
