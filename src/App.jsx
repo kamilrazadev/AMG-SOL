@@ -31,7 +31,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
           <Route path="/help" element={<Help />} />
-          <Route path="/mission-values" element={<MissionValues />} />
+          <Route path="/mission-and-values" element={<MissionValues />} />
           <Route path="/countries-we-cover" element={<CountriesWeCover />} />
         </Routes>
       </BrowserRouter>

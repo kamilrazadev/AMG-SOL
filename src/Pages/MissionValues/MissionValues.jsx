@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./MissionValues.module.css";
 import HeroBanner from "./Sections/HeroBanner";
 import MissonValuesCard from "./Sections/MissonValuesCard";
+import StayInformed from "./Sections/StayInformed";
 
 const MissionValues = () => {
   const missionValuesCardData = [
@@ -34,6 +35,12 @@ const MissionValues = () => {
           />
         ))}
       </div>
+      <div className={styles.card_section_button}>
+        <button className="blue_blue_common_btn">Learn More</button>
+      </div>
+
+      <StayInformed />
+
     </main>
   );
 };

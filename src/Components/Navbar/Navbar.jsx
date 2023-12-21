@@ -92,10 +92,9 @@ const Navbar = () => {
         </div>
 
         <span
-          className={`${styles.menu_bars} ${styles.menu_bars_nav}`}
+          className={`${styles.menu_bars_nav}`}
           onClick={closeNavbar}
         >
-          <div></div>
           <div></div>
           <div></div>
         </span>
