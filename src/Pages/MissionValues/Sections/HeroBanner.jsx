@@ -9,8 +9,10 @@ const HeroBanner = () => {
         <h1>ENABLING SEAMLESS FINANCIAL MOBILITY WORLDWIDE</h1>
         <p>Instant, convenient, transparent and eventually free</p>
         <div className={styles.mission_hero_btns}>
-          <button>Learn more</button>
-          <button>Read our latest mission update</button>
+          <button className={`yellow_btn_common`}>Learn more</button>
+          <button className={`blue_blue_common_btn`}>
+            Read our latest mission update
+          </button>
         </div>
       </div>
     </header>

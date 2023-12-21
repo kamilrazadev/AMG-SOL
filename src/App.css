@@ -16,12 +16,12 @@
 }
 
 .yellow_btn_common:hover {
-    color: #F9DF08;
-    background: transparent;
+    background-color: #ddc703;
+    scale: 0.95;
 }
 
 .yellow_btn_common:active {
-    scale: 0.95;
+    scale: 1;
 }
 
 /* Blue Blue common Button */
@@ -36,9 +36,10 @@
 }
 
 .blue_blue_common_btn:hover {
-    background: transparent;
+    background-color: #0a0a50;
+    scale: 0.95;
 }
 
 .blue_blue_common_btn:active {
-    scale: 0.95;
+    scale: 1;
 }
