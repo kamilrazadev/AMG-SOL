@@ -1,0 +1,652 @@
+.wrapper {
+    /* padding: 20px 88px; */
+    padding: 3vw 5vw;
+    width: 100%;
+    height: 100%;
+}
+
+
+.heading_common {
+    font-size: 3.8vw;
+    line-height: 3.7vw;
+    font-weight: 800;
+}
+
+.sub_heading {
+    font-weight: 500;    
+}
+
+.international_money_transfer_main {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0;
+    background-color: transparent;
+    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+}
+
+
+.background_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%;
+    height: 100%;
+    overflow: hidden; /* Ensure video doesn't overflow */
+  }
+  
+  .background_video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1; /* Place the video above other content */
+  }
+  
+  .yellow_background {
+    width: 45%;
+    height: 100%;
+    background-color: #F9DF08; /* Yellow background color */
+    position: absolute;
+    top: 0;
+    left: 55%;
+    z-index: 0; /* Place the yellow background behind the video */
+  }
+  
+
+.international_money_transfer_globe {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    /* z-index: 10; */
+}
+
+.international_money_transfer_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.international_money_transfer_container > div:first-child {
+    width: 40%;
+}
+
+.international_money_transfer_container > div:nth-child(2) {
+    width: 60%;
+}
+
+.international_money_transfer_form {
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    /* gap: 45px; */
+    padding: 30px 44px;
+    position: relative;
+    z-index: 1;
+
+    /* UI */
+    background-color: #FDED61;
+    border: 1px solid #DEDBDB;
+    border-radius: 55px;
+    box-shadow: 0px 12px 2px #B19D00;
+}
+
+.international_money_transfer_txt {
+    align-self: flex-start;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.international_money_transfer_txt > h1 {
+    color: #518B3E;
+}
+
+.international_money_transfer_txt > h3 {
+    color: #F9DF08;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.our_fee {
+
+}
+
+.our_fee > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.our_free_li {
+    display: flex;
+    justify-content: space-between;
+    color: #2B4C96;
+}
+
+.our_free_li p {
+    margin: 0 !important;
+}
+
+
+
+.form_field > div {
+    /* layout */
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+    /* UI */
+    background-color: #fff;
+    border: 1px solid #707070;
+    border-radius: 20px;
+}
+
+.form_field > div > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.form_field p:nth-child(2) {
+    margin: 0;
+}
+
+.form_field img {
+    height: 25px;
+}
+
+.form_field  input {
+    /* layout */
+    height: 100%;
+    width: 70%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+
+    /* UI */
+    text-indent: 20px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border-radius: 25px 0 0 25px;
+}
+
+.form_field > p {
+    font-size: 13px;
+    color: #2CD1F5;
+    margin: 0 0 10px 10px;
+    font-weight: 600;
+}
+
+.arrow_icon {
+    margin-top: 5px;
+    width: 16px !important;
+    height: 18px !important;
+}
+
+.form_btn {
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 20px;  
+    margin-top: 20px;  
+}
+
+.form_btn button {
+    width: 156px;
+    height: 40px;    
+    border: 1px solid #707070;
+    border-radius: 24px;
+    font-size: 14px;
+    transition: 150ms linear;
+}
+
+.form_btn button:hover {
+    scale: 0.95;
+}
+
+.form_btn button:active {
+    scale: 1;
+}
+
+
+.form_btn button:first-child {
+    background-color: #fff;
+    color: #2B4C96;
+    font-weight: 600;
+}
+
+.form_btn button:nth-child(2) {
+    font-weight: 900;
+    background-color: #2B4C96;
+    color: #F9DF08;
+}
+
+/* OnlinePayments */
+
+.online_payment_main {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+}
+
+.online_payment_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #010139;
+}
+
+.online_payment_txt {
+    width: 65%;
+    display: flex;  
+    gap: 30px;
+}
+
+.online_payment_txt > div {
+    width: 50%;
+}
+
+.online_payment_container p {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.online_payment_container h3, .online_payment_container h2 {
+    font-weight: 800;
+}
+
+.online_payment_container img {
+    width: 270px;
+    height: 190px;
+}
+
+/* B2B */
+
+.b2b_main {
+    padding: 50px 0 0 100px;
+    background-color: #2B4C96;
+}
+
+.b2b_container {
+    display: flex;
+    justify-content: center;
+}
+
+.b2b_txt {
+    width: 650px;
+    max-width: 90%;
+}
+
+.b2b_txt h3 {
+    font-weight: 800;
+    color: #2CCCF1;
+}
+
+.b2b_txt p {
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.b2b_container img {
+    width: 420px;
+    max-width: 100%;
+}
+
+/* MoneyTransfer */
+
+.money_transfer_main {
+    padding: 30px 50px;
+}
+
+.money_transfer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.money_transfer_container h1 {
+    font-weight: 800;
+    color: #010139;
+    text-align: center;
+    line-height: 24px;
+}
+
+.money_transfer_content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.divider {
+    width: 3px;
+    border-radius: 8px;
+    background-color: #25B5E5;
+}
+
+.money_transfer_content > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.money_transfer_content h3 {
+    font-weight: 800;
+    color: #010139;
+}
+
+.money_transfer_content p {
+    font-size: 12px;
+    color: #010139;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.money_transfer_content img {
+    align-self: center;
+    width: 70%;
+}
+
+/* SOL card */
+
+.sol_card_main {
+    width: 100%;
+    /* height: 330px; */
+}   
+
+.sol_card_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+    /* background-image: url(/public/assets/images/SOL_Card.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+}
+
+.sol_card_container img {
+    width: 100%;
+}
+
+.ewallet_main {
+    width: 100%;
+    background-color: #2B4C96;
+    padding: 30px 30px 30px 80px;
+}
+
+.ewallet_container {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.ewallet_container > div:first-child {
+    width: 45%;
+}
+
+.ewallet_container > div:nth-child(2) {
+    width: 55%;
+}
+
+.ewallet_container h1 {
+    color: #B5F7FF;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.ewallet_container p {
+    color: #24AED5;
+    font-size: 12px;
+    text-align: justify;
+}
+
+/* ProductNServices */
+
+.product_services_main {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product_services_container {
+    padding: 30px 80px;
+    width: 70%;
+    background-color: #F9DF08;
+    position: relative;
+    z-index: 5; /* Place the container above the background image */
+  }
+
+  .product_services_content ul {
+    list-style: none;
+    margin-top: 25px;
+  }
+
+  .product_services_content h1 {
+    color: #518B3E;
+    line-height: 24px;
+    font-weight: 800;
+  }
+
+  .product_services_content h3 {
+    color: #518B3E;
+    font-weight: 700; 
+  }
+
+  .product_services_content p {
+    text-align: justify;
+    color: #3a5ba3c1;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .background_image {
+    width: 30%; /* Adjust as needed */
+    z-index: 1; /* Place the background image behind the container */
+  }
+
+  .shadow_effect {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    box-shadow: 0 0 50px 65px #F9DF08;
+    z-index: 1 ; /* Place the shadow behind the background image */
+  }
+
+@media (max-width: 650px) {
+    .background_container {
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+    }
+  
+    .background_video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1; 
+      opacity: 0.8;
+    }
+  
+    .yellow_background {
+      display: none;
+    }
+
+    /* MoneyTransfer */
+
+    .money_transfer_content {
+        flex-direction: column;
+        gap: 0;
+    }
+    .money_transfer_content > div {
+        width: 100%;
+    }
+    .money_transfer_content img {
+        width: 50%;
+    }
+  }
+  
+
+@media (max-width: 768px) {
+        .heading_common {
+            font-size: 33px;
+            line-height: 30px;
+        }    
+        
+        /* InternationalMoneyTrans */
+        .international_money_transfer_container {
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+        .international_money_transfer_globe {
+            height: 80%;
+            left: -70px;
+            top: 120px;
+        }
+        .international_money_transfer_container > div {
+            width: 100% !important;
+        }
+        .international_money_transfer_form {
+            padding: 30px 20px;
+            border-radius: 30px;
+        }
+        .international_money_transfer_form input {
+            font-size: 11px;
+        }
+
+
+        /*OnlinrPayments  */
+        
+        .online_payment_container {
+            flex-direction: column;
+            gap: 0;
+        }
+        .online_payment_txt {
+            width: 100%;
+        }
+
+        /* B2B */
+
+        .b2b_main {
+            padding: 40px 0 0 50px;
+        }
+
+
+        /*ProductNServices  */
+
+        .background_image {
+            display: none;
+        }
+        .shadow_effect {
+            display: none;
+        }
+        .product_services_container {
+            width: 100%;
+            padding: 20px 20px 20px 50px;
+        }
+        .product_services_content {
+            width: 100%;
+        }
+}
+
+@media (max-width: 730px) {
+    .b2b_main {
+        padding: 25px 20px;
+    }
+    .b2b_container {
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
+@media (max-width: 500px) {
+    .ewallet_container {
+        flex-direction: column;
+    }
+    .ewallet_container > div {
+        width: 100% !important;
+    }
+    .ewallet_container h1 {
+        font-size: 25px;
+    }
+    .ewallet_container p {
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 475px) {
+    .online_payment_txt {
+        flex-direction: column;
+        gap: 0;
+    }    
+    .online_payment_txt > div {
+        width: 100%;
+    }
+    
+    /* B2b */
+    .b2b_txt p {
+        font-size: 10px;
+    }
+
+    /*MoneyTransfer  */
+    .money_transfer_content p {
+        font-size: 10px;
+    }
+
+    /* SolCard */
+
+    .sol_card_container {
+        overflow: hidden;
+    }
+    .sol_card_container img {
+        width: 150%;
+    }
+
+    /* ProductsNServices */
+    .product_services_content p {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:  400px) {
+    .our_free_li {
+        font-size: 13px;
+    }    
+    .international_money_transfer_globe {
+        top: 140px;
+    }
+    .form_btn {
+        padding: 0;
+    }
+    .form_btn button {
+        font-size: 12px;
+    }
+}
