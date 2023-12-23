@@ -3,6 +3,8 @@ import styles from "./MissionValues.module.css";
 import HeroBanner from "./Sections/HeroBanner";
 import MissonValuesCard from "./Sections/MissonValuesCard";
 import StayInformed from "./Sections/StayInformed";
+import MissionRoadMap from "./Sections/MissionRoadMap";
+import MissionVision from "./Sections/MissionVision";
 
 const MissionValues = () => {
   const missionValuesCardData = [
@@ -40,6 +42,10 @@ const MissionValues = () => {
       </div>
 
       <StayInformed />
+
+      <MissionRoadMap />
+
+      <MissionVision />
 
     </main>
   );
