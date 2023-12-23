@@ -6,10 +6,11 @@ import InternationalMoneyTrans from "./Sections/InternationalMoneyTrans";
 import PeopleGoingPlaces from "./Sections/PeopleGoingPlaces";
 import DisappointThieves from "./Sections/DisappointThieves";
 import OurTeam from "./Sections/OurTeam";
+import styles from "./HomePage.module.css"
 
 const HomePage = () => {
   return (
-    <main>
+    <main className={styles.homepage_main}>
       <HeroBanner />
       <MoneyTransferForm />
       <MoneyTransferLLC />
