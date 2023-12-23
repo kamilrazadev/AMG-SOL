@@ -22,11 +22,10 @@ const App = () => {
   }, []);
 
   return (
-    <>
+      <BrowserRouter>
       <nav className="navbar">
         <Navbar />
       </nav>
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
@@ -34,9 +33,8 @@ const App = () => {
           <Route path="/mission-and-values" element={<MissionValues />} />
           <Route path="/countries-we-cover" element={<CountriesWeCover />} />
         </Routes>
-      </BrowserRouter>
       <Footer />
-    </>
+      </BrowserRouter>
   );
 };
 
