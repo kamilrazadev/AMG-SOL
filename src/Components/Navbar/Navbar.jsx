@@ -66,7 +66,7 @@ const Navbar = () => {
                 <ScrollLink to="/services#onlinePayment">Online Payments</ScrollLink>
                 <ScrollLink to="/#internationalMoneyTransferForm">Money Transfers</ScrollLink>
                 <ScrollLink to="/services#solCard">Pre-Paid Services</ScrollLink>
-                <a href="#">Check Cashing</a>
+                <ScrollLink to="/services#productNServices">Check Cashing</ScrollLink>
               </ul>
             </div>
 

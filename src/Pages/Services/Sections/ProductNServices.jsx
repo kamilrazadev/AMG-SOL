@@ -4,7 +4,7 @@ import bgImage from "/assets/images/person-holding-phone-with-lit-.png"
 
 const ProductNServices = () => {
   return (
-    <section  className={styles.product_services_main}>
+    <section  className={styles.product_services_main} id='productNServices'>
 
 
         <div className={styles.product_services_container}>

@@ -30,7 +30,7 @@ const StayInformed = () => {
   ];
 
   return (
-    <main className={styles.stay_informed_main}>
+    <main className={styles.stay_informed_main} id="stayInformed">
       <div className={styles.stay_informed_container}>
         <div className={styles.stay_informed_sec_title}>
           <h1>

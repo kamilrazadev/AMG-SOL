@@ -5,7 +5,7 @@ import govtHouse from "/assets/images/government_1582292.png";
 
 const DisappointThieves = () => {
   return (
-    <div className={styles.dissapoint_thieves_main}>
+    <div className={styles.dissapoint_thieves_main} id="disappointThieves">
       <div className={styles.wrapper}>
         <div className={styles.dissapoint_thieves_container}>
           <div

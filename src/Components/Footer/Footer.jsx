@@ -3,6 +3,7 @@ import styles from "./Footer.module.css";
 import twitterX from "/assets/images/socialIcons/twitterX.png";
 import facebook from "/assets/images/facebook_3670124.png";
 import instagram from "/assets/images/instagram_3955024.png";
+import ScrollLink from "../ScrollLink";
 
 const Footer = () => {
   return (
@@ -12,9 +13,15 @@ const Footer = () => {
           <ul>
             <h4>Company and Team</h4>
 
-            <li>Company and Team</li>
-            <li>Security</li>
-            <li>Press</li>
+            <li>
+              <ScrollLink  to="/#ourTeam">Company and Team</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="/#disappointThieves">Security</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="/mission-and-values#stayInformed">Press</ScrollLink>
+            </li>
             <li>Careers</li>
             <li>Service Status</li>
             <li>Investor relations</li>
