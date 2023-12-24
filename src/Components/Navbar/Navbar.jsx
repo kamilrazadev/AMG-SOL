@@ -54,7 +54,7 @@ const Navbar = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
                 <h3>ABOUT US</h3>
-                <a href="#">Company Overview</a>
+                <a href="/#">Company Overview</a>
                 <ScrollLink to="/mission-and-values#missionValuesHeroBanner">Mission & Values</ScrollLink>
                 <ScrollLink to="/#ourTeam">Our Team</ScrollLink>
               </ul>
@@ -73,8 +73,8 @@ const Navbar = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
                 <h3>RESOURCES</h3>
-                <a href="#">FAQ's</a>
-                <a href="/countries-we-cover#countriesWeCoverHeroBanner">Coverage</a>
+                <ScrollLink to="/help">FAQ's</ScrollLink>
+                <ScrollLink to="/countries-we-cover#countriesWeCoverHeroBanner">Coverage</ScrollLink>
               </ul>
             </div>
 
