@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const HeroBanner = () => {
   return (
-    <div className={styles.hero_banner_main}>
+    <div className={styles.hero_banner_main} id="homeHeroBanner">
       <Link
         id={styles.hero_scroll_btn}
         to="moneyTransferForm"

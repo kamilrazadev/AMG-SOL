@@ -4,7 +4,7 @@ import billPay from "/assets/images/Bill_Pay.png"
 
 const OnlinePayment = () => {
   return (
-    <section  className={styles.online_payment_main}>
+    <section  className={styles.online_payment_main} id='onlinePayment'>
       <div className={styles.online_payment_container}>
         <div  className={styles.online_payment_txt}>
         <div>

@@ -4,7 +4,7 @@ import globeImage from "/assets/images/pngwingcom_4.png";
 
 const HeroBanner = () => {
   return (
-    <header className={styles.mission_hero_main}>
+    <header className={styles.mission_hero_main} id="missionValuesHeroBanner">
       <img src={globeImage} alt=""className={styles.globeImage} />
 
       <div className={styles.mission_hero_container}>

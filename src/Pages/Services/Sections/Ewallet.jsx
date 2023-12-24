@@ -3,7 +3,7 @@ import styles from "../Services.module.css"
 
 const Ewallet = () => {
   return (
-    <section className={styles.ewallet_main}>
+    <section className={styles.ewallet_main} id='eWallet'>
       <div className={styles.ewallet_container}>
         <div>
             <h1>E-WALLET</h1>

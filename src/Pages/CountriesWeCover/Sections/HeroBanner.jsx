@@ -4,7 +4,7 @@ import solLogoHero from "/assets/images/Yellow_Transparent@2x.png";
 
 const CountriesWeCover = () => {
   return (
-    <div className={styles.hero_banner_main}>
+    <div className={styles.hero_banner_main} id="countriesWeCoverHeroBanner">
       <div className={styles.hero_banner_headings} data-aos="zoom-out">
         <h1>SOL NEAR WORKS EVERYWHERE IN UNITED STATES</h1>
       </div>

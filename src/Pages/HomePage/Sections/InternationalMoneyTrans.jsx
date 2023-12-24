@@ -8,7 +8,7 @@ const MoneyTransferForm = () => {
   return (
     <section
       className={styles.international_money_transfer_main}
-      id="moneyTransferForm"
+      id="internationalMoneyTransferForm"
     >
       <div className={styles.wrapper}>
         <div className={styles.international_money_transfer_container}>

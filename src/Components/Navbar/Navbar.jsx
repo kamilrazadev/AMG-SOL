@@ -3,6 +3,7 @@ import styles from "./Navbar.module.css";
 import solLogo from "/assets/images/SOL_Logo.png";
 import helpIcon from "/assets/images/Help_icon.png";
 import { Link } from "react-router-dom";
+import ScrollLink from "../ScrollLink";
 
 const Navbar = () => {
   const showNavbar = () => {
@@ -54,17 +55,17 @@ const Navbar = () => {
               <ul>
                 <h3>ABOUT US</h3>
                 <a href="#">Company Overview</a>
-                <a href="#">Mission & Values</a>
-                <a href="#">Our Team</a>
+                <ScrollLink to="/mission-and-values#missionValuesHeroBanner">Mission & Values</ScrollLink>
+                <ScrollLink to="/#ourTeam">Our Team</ScrollLink>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
                 <h3>SERVICES</h3>
-                <a href="#">Online Payments</a>
-                <a href="#">Money Transfers</a>
-                <a href="#">Pre-Paid Services</a>
+                <ScrollLink to="/services#onlinePayment">Online Payments</ScrollLink>
+                <ScrollLink to="/#internationalMoneyTransferForm">Money Transfers</ScrollLink>
+                <ScrollLink to="/services#solCard">Pre-Paid Services</ScrollLink>
                 <a href="#">Check Cashing</a>
               </ul>
             </div>
@@ -73,14 +74,14 @@ const Navbar = () => {
               <ul>
                 <h3>RESOURCES</h3>
                 <a href="#">FAQ's</a>
-                <a href="#">Coverage</a>
+                <a href="/countries-we-cover#countriesWeCoverHeroBanner">Coverage</a>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
                 <h3>CONTACT US</h3>
-                <a href="#">+21 345 6789</a>
+                <a href="tel:+21 345 6789">+21 345 6789</a>
                 <a href="#"></a>
               </ul>
             </div>

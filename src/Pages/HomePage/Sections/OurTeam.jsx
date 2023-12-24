@@ -22,7 +22,7 @@ const OurTeam = () => {
   ];
 
   return (
-    <div className={styles.our_team_main}>
+    <div className={styles.our_team_main}  id="ourTeam">
       <div className={styles.wrapper}>
         <div className={styles.our_team_container}>
           <h1 className={styles.heading_common}>OUR TEAM</h1>
