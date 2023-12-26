@@ -301,20 +301,13 @@
     transition: 150ms linear;
 }
 
-.form_btn button:first-child:hover {
+.form_btn button:first-child:hover, .form_btn button:nth-child(2):hover {
     scale: 0.95;
 }
 
 
-.form_btn button:first-child:active {
+.form_btn button:first-child:active, .form_btn button:nth-child(2):active {
     scale: 1;
-}
-
-.form_btn button:nth-child(2):hover {
-    background: transparent;
-    color: #F9DF08;
-    border: 1px solid #F9DF08 ;
-    /* scale: 0.95; */
 }
 
 .form_btn button:first-child {
