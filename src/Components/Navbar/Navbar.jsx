@@ -53,34 +53,61 @@ const Navbar = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
-                <h3>ABOUT US</h3>
-                <a href="/#">Company Overview</a>
-                <ScrollLink to="/mission-and-values#missionValuesHeroBanner">Mission & Values</ScrollLink>
+                <h3>
+                  <a href="/" className={styles.nav_links_main}>
+                    ABOUT US
+                  </a>
+                </h3>
+                <a href="/">Company Overview</a>
+                <a href="/mission-and-values">Mission & Values</a>
                 <ScrollLink to="/#ourTeam">Our Team</ScrollLink>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
-                <h3>SERVICES</h3>
-                <ScrollLink to="/services#onlinePayment">Online Payments</ScrollLink>
-                <ScrollLink to="/#internationalMoneyTransferForm">Money Transfers</ScrollLink>
-                <ScrollLink to="/services#solCard">Pre-Paid Services</ScrollLink>
-                <ScrollLink to="/services#productNServices">Check Cashing</ScrollLink>
+                <h3>
+                  <a href="/services" className={styles.nav_links_main}>
+                    SERVICES
+                  </a>
+                </h3>
+                <ScrollLink to="/services#onlinePayment">
+                  Online Payments
+                </ScrollLink>
+                <ScrollLink to="/#internationalMoneyTransferForm">
+                  Money Transfers
+                </ScrollLink>
+                <ScrollLink to="/services#solCard">
+                  Pre-Paid Services
+                </ScrollLink>
+                <ScrollLink to="/services#productNServices">
+                  Check Cashing
+                </ScrollLink>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
-                <h3>RESOURCES</h3>
-                <ScrollLink to="/help">FAQ's</ScrollLink>
-                <ScrollLink to="/countries-we-cover#countriesWeCoverHeroBanner">Coverage</ScrollLink>
+                <h3>
+                  <a
+                    href="/countries-we-cover"
+                    className={styles.nav_links_main}
+                  >
+                    RESOURCES
+                  </a>
+                </h3>
+                <a href="/help">FAQ's</a>
+                <a href="/countries-we-cover">Coverage</a>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <ul>
-                <h3>CONTACT US</h3>
+                <h3>
+                  <a href="/" className={styles.nav_links_main}>
+                    CONTACT US
+                  </a>
+                </h3>
                 <a href="tel:+21 345 6789">+21 345 6789</a>
                 <a href="#"></a>
               </ul>
@@ -92,10 +119,7 @@ const Navbar = () => {
           <button>User Login</button>
         </div>
 
-        <span
-          className={`${styles.menu_bars_nav}`}
-          onClick={closeNavbar}
-        >
+        <span className={`${styles.menu_bars_nav}`} onClick={closeNavbar}>
           <div></div>
           <div></div>
         </span>

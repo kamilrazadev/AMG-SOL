@@ -7,6 +7,7 @@
   min-height: 90vh;
   padding: 10px 45px;
   position: relative;
+  overflow: hidden;
 
   /* UI */
   background-color: #2b4c96;
@@ -44,8 +45,10 @@
 }
 
 .hero_banner_logo img {
-  width: 110%;
-  /* height: 394px; */
+  width: 150%;
+  /* height: 10%; */
+  position: relative;
+  left: -150px;
 }
 
 @media (max-width: 768px) {
@@ -53,6 +56,7 @@
   .hero_banner_main {
     flex-direction: column;
     justify-content: center;
+    align-items: center ;
     gap: 0px;
     padding: 40px 20px;
   }
@@ -68,6 +72,10 @@
   .hero_banner_logo {
     width: 70%;
     height: auto;
+  }
+  .hero_banner_logo img {
+    position: inherit;
+    width: 100%;
   }
 }
 
