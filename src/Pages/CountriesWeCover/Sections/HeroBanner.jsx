@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../CountriesWeCover.module.css";
-import solLogoHero from "/assets/images/Yellow_Transparent@2x.png";
+import mapImage from "/assets/images/map_countries-we-cover.png";
 
 const CountriesWeCover = () => {
   return (
@@ -10,7 +10,7 @@ const CountriesWeCover = () => {
       </div>
       <div className={styles.hero_banner_logo}>
         <div>
-          <img src={solLogoHero} alt="" data-aos="zoom-out" />
+          <img src={mapImage} alt="" data-aos="zoom-out" />
         </div>
       </div>
     </div>
